@@ -1,0 +1,16 @@
+{
+  "name": "voicereq",
+  "version": "0.0.1",
+  "description": "\"Voice based Prescription generation\"",
+  "main": "final.mjs",
+  "scripts": {
+    "dev": "npm install && node final.mjs"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.7.0",
+    "axios": "^1.7.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "string-similarity": "^4.0.4"
+  }
+}
